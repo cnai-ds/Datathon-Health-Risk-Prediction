@@ -1,1 +1,2 @@
-# Mortality-Prediction-Model
+# Mortality Prediction Model for SCOR Datathon
+
