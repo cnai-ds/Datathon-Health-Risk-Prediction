@@ -12,9 +12,9 @@ We have created a flask application to predict one's diabetes risk, level of gly
 For example, we can say, to decrease the risk to 50% to 20% , we can suggest the person to walk 10 minutes more or sleep 1 hour longer per day. <br><br>
 
 ## Main Models for our application
-- Gradient Boost Regression to predict Glycohemoglobin and Cholesterol level of a person
-- Xgboost Classification to predict mortality
-- Cox.PH to identify hazard ratio
+- Cox.PH to identify key features for health risks
 - Kaplan Meier to visualize survival curve for each indicators
+- Gradient Boost Regression to predict Glycohemoglobin and Cholesterol level of a person
+- Xgboost Classification to predict diabetes
+- **SHAP value to calculate the marginal effect of certain variables to diabetes**
 - Random Survival Forest to identify the probability change considering given age and other parameter change.
-- XGboost Regression to predict age of the person
