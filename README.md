@@ -1,7 +1,6 @@
 # Heath Risk Prediction for SCOR Datathon
 This repository is for SCOR Datathon held from November 2019 to February 2020 in Paris.\
-[SCOR](https://www.scor.com/en) is a tier 1 reinsurance company in the world. During this 4 months, we processed real open data, [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) and [NHCS](https://www.cdc.gov/nchs/nhcs/data_uses.htm), and built models to predict health risks of a person in U.S. \
-\
+[SCOR](https://www.scor.com/en) is a tier 1 reinsurance company in the world. During this 4 months, we processed real open data, [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) and [NHCS](https://www.cdc.gov/nchs/nhcs/data_uses.htm), and built models to predict health risks of a person in U.S. <br><br>
 
 ## Our business problem identification
 We have identified 2 biggest business problems for insurance and re-insurance companies; frauds and increase cost from chronic diseases. <br>
@@ -10,7 +9,7 @@ Health care payers are seeking for solutions to decrease their premium cost not 
 
 ## Our solutions
 We have created a flask application to predict one's diabetes risk, level of glycohemoglobin and cholesterol, and **suggest how one can decrease the risk to specific level**.
-For example, we can say, to decrease the risk to 50% to 20% , we can suggest the person to walk 10 minutes more or sleep 1 hour longer per day.
+For example, we can say, to decrease the risk to 50% to 20% , we can suggest the person to walk 10 minutes more or sleep 1 hour longer per day. <br><br>
 
 ## Main Models for our application
 - Gradient Boost Regression to predict Glycohemoglobin and Cholesterol level of a person
