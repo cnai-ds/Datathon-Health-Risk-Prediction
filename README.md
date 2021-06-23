@@ -9,11 +9,12 @@ Health care payers are seeking for solutions to decrease their premium cost not 
 
 ## Our solutions
 We have created a flask application to predict one's diabetes risk, level of glycohemoglobin and cholesterol, and **suggest how one can decrease the risk to specific level**.
-For example, we can say, to decrease the risk to 50% to 20% , we can suggest the person to walk 10 minutes more or sleep 1 hour longer per day. <br><br>
+For example, we can say, to decrease the risk to 50% to 20% , we can suggest the person to walk 10 minutes more or sleep 1 hour longer per day. <br>
 
 <p align="center">
-<img src="./App image.png" alt="" width="400">
+<img src="./App image.png" alt="" width="700">
 </p>
+<br><br>
 
 ## Main Models for our application
 - Cox.PH to identify key features for health risks
